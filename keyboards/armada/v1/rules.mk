@@ -1,0 +1,29 @@
+# SRC += features/achordion.c
+
+MOUSEKEY_ENABLE     = no
+CONSOLE_ENABLE      = no
+COMMAND_ENABLE      = no
+NKRO_ENABLE         = no
+BACKLIGHT_ENABLE    = no
+RGBLIGHT_ENABLE     = no
+AUDIO_ENABLE        = no
+ENCODER_ENABLE      = no
+SPLIT_KEYBOARD      = no
+WAIT_FOR_USB        = no
+SPACE_CADET_ENABLE  = no
+GRAVE_ESC_ENABLE    = no
+MAGIC_ENABLE        = no
+MIDI_ENABLE         = no
+LEADER_ENABLE       = no
+BLUETOOTH_ENABLE    = no
+CAPS_WORD_ENABLE    = no
+AUTO_SHIFT_ENABLE   = no
+KEY_LOCK_ENABLE     = no
+TAP_DANCE_ENABLE    = no
+
+BOOTMAGIC_ENABLE    = yes
+EXTRAKEY_ENABLE     = yes
+UNICODEMAP_ENABLE   = yes
+KEY_OVERRIDE_ENABLE = yes
+
+DEBOUNCE_TYPE       = sym_eager_pk
